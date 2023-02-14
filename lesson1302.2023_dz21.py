@@ -5,8 +5,8 @@ def is_palindrome(s: str):
     s = s.split(' ')
     for i in range(0, len(s)):
         s[i] = s[i].lower()
-    string = ''.join(s)
-    return string[::-1] == string
+    str1 = ''.join(s)
+    return str1[::-1] == str1
 
 print(is_palindrome("A man, a plan, a canal: Panama"))
 print(is_palindrome("0P"))
