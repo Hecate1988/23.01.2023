@@ -1,9 +1,9 @@
 def add_one(nums):
     if __name__ == '__main__':
         s = ''.join(str(x) for x in nums)
-    string = str(int(s) + 1)
+    str1 = str(int(s) + 1)
     if __name__ == '__main__':
-      return list(map(int, string))
+      return list(map(int, str1))
 
 print(add_one([1, 2, 3, 4]))
 print(add_one([9, 9, 9, 9]))
